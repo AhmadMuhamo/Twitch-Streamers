@@ -1,4 +1,4 @@
-# Wikipedia-Viewer
-FreeCodeCamp Project #5
+# Twitch-Streamers
+FreeCodeCamp Project #6
 
-codepen: https://codepen.io/AhmadMuhamo/full/zRoVVw/
+codepen: https://codepen.io/AhmadMuhamo/full/zRwyyZ/
