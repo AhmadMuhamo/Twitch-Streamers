@@ -15,7 +15,7 @@ for(let stream of streamers)  {
           streamName = response.stream.channel.status;
           if(streamName.length >= 50) streamName = streamName.substr(0,50)+"...";
           
-          $(".online-streamers").append("<div class='online d-flex align-items-center mx-auto'><img class='ml-1 streamer-img' src='"+logo+"'/><p class='ml-5 mr-2'>"+name+"</p><p class='mx-auto'>"+game+' - '+streamName+"</p></div>");
+          $(".online-streamers").append("<a target='_blank' class='online-link' href='https://www.twitch.tv/"+name+"'><div class='online d-flex align-items-center mx-auto'><img class='ml-1 streamer-img' src='"+logo+"'/><p class='ml-5 mr-2'>"+name+"</p><p class='mx-auto'>"+game+' - '+streamName+"</p></div></a>");
         }else {
           $.ajax({
             url: "https://wind-bow.glitch.me/twitch-api/users/"+stream,
